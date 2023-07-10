@@ -32,6 +32,7 @@ struct NavigationStackEnumBootcamp_Previews: PreviewProvider {
     }
 }
 
+// Enum View
 enum DestinationViews: String, Hashable, Identifiable, CaseIterable, View {
     case viewOrange = "Orange View"
     case viewRed = "Red View"
